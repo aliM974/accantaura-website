@@ -3,159 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="5GdDQWKj8RCjMd9iPYH4mfbF0RLFcaiCSWKLHxABoB8" />
+    <meta name="google-site-verification" content="5GdDQWKj8RCjMd9iPYH4mfbF0RLFcaiCSWKLHxABoB8">
     <title>Accentaura - Merchandise Store</title>
-    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/4/42/Accentaura_Logo.png" type="image/png">
+    <link rel="icon" href="favicon.png" type="image/png">
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
         }
         header {
-            background-color: #4CAF50;
-            color: white;
+            background-color: #333;
+            color: #fff;
             text-align: center;
-            padding: 1rem;
+            padding: 10px 0;
         }
         .container {
             width: 80%;
-            margin: auto;
+            margin: 20px auto;
             overflow: hidden;
         }
         .category {
-            margin: 40px 0;
-            padding: 20px;
-            background-color: #e8e8e8;
-            border-radius: 8px;
+            margin: 20px 0;
         }
         .category h2 {
-            text-align: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
             margin-bottom: 20px;
-            color: #4CAF50;
         }
         .product {
-            background: white;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            transition: transform 0.2s;
+            border: 1px solid #ddd;
+            box-shadow: 2px 2px 8px #ccc;
+            margin: 10px;
+            text-align: center;
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
         }
-        .product:hover {
-            transform: scale(1.02);
-        }
-        img {
+        .product img {
             max-width: 100%;
             height: auto;
-            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .product h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .product p {
+            font-size: 0.9em;
+        }
+        .product button {
+            background-color: #28a745;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .product button:hover {
+            background-color: #218838;
         }
         footer {
+            background-color: #333;
+            color: #fff;
             text-align: center;
-            padding: 1rem;
-            background-color: #4CAF50;
-            color: white;
-            position: relative;
+            padding: 10px 0;
+            position: absolute;
             bottom: 0;
             width: 100%;
-        }
-        .coupon {
-            color: red;
-            font-weight: bold;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to Accentaura!</h1>
-        <p>Your one-stop shop for unique merchandise.</p>
+        <h1>Accentaura - Unique Merchandise Store</h1>
     </header>
 
     <div class="container">
-        <!-- Existing Product Sections -->
-
-        <!-- New Urban Style Category Section -->
+        <!-- Original Products -->
         <div class="category">
-            <h2>Urban Style</h2>
-
-            <!-- Product 1: Next Level 3600 T-Shirt -->
+            <h2>Original Collection</h2>
             <div class="product">
-                <h3>Next Level 3600 | Premium Ring-Spun Cotton T-Shirt</h3>
-                <img src="https://imgur.com/SVVhScW.png" alt="Next Level 3600 T-Shirt">
-                <p>Price: $24.99</p>
-                <p>Order Now: <a href="https://mydreamvibe.creator-spring.com" target="_blank">Order Here</a></p>
+                <img src="https://imgur.com/dXSry1z" alt="Graphic T-Shirt">
+                <h3>Graphic T-Shirt - $24.99</h3>
+                <button>Order Now</button>
             </div>
-
-            <!-- Product 2: Unisex Classic Pullover Hoodie -->
             <div class="product">
-                <h3>Unisex Classic Pullover Hoodie</h3>
-                <img src="https://imgur.com/Y6cebNB.png" alt="Unisex Classic Pullover Hoodie">
-                <p>Price: $40.99</p>
-                <p>Order Now: <a href="https://mydreamvibe.creator-spring.com" target="_blank">Order Here</a></p>
+                <img src="https://imgur.com/ww5w81Y" alt="Hoodie">
+                <h3>Hoodie - $40.99</h3>
+                <button>Order Now</button>
             </div>
-
-            <!-- Product 3: Notebook -->
             <div class="product">
-                <h3>Notebook</h3>
-                <img src="https://imgur.com/RGpV13C.png" alt="Notebook">
-                <p>Price: $19.99</p>
-                <p>Order Now: <a href="https://mydreamvibe.creator-spring.com" target="_blank">Order Here</a></p>
+                <img src="https://imgur.com/FvA2Jr8" alt="Mug">
+                <h3>Mug - $15.99</h3>
+                <button>Order Now</button>
             </div>
-
-            <!-- Product 4: Heavy Tee -->
             <div class="product">
-                <h3>Heavy Tee</h3>
-                <img src="https://imgur.com/OCpM6l7.png" alt="Heavy Tee">
-                <p>Price: $44.99</p>
-                <p>Order Now: <a href="https://mydreamvibe.creator-spring.com" target="_blank">Order Here</a></p>
+                <img src="https://imgur.com/gUVLvc0" alt="Heavy Tee">
+                <h3>Heavy Tee - $44.99</h3>
+                <button>Order Now</button>
             </div>
+        </div>
 
-            <!-- Product 5: Samsung Case -->
+        <!-- New Products - Urban Style -->
+        <div class="category">
+            <h2>Urban Style Collection</h2>
             <div class="product">
-                <h3>Samsung Case</h3>
-                <img src="https://imgur.com/45e1zxl.png" alt="Samsung Case" style="max-width: 80%;">
-                <p>Price: $22.99</p>
-                <p>Order Now: <a href="https://mydreamvibe.creator-spring.com" target="_blank">Order Here</a></p>
+                <img src="https://imgur.com/SVVhScW" alt="Next Level 3600 T-Shirt">
+                <h3>Next Level 3600 | Premium Ring-Spun Cotton T-Shirt - $24.99</h3>
+                <button>Order Now</button>
             </div>
-
-            <!-- Product 6: iPhone Case -->
             <div class="product">
-                <h3>iPhone Case</h3>
-                <img src="https://imgur.com/vETQ7n2.png" alt="iPhone Case" style="max-width: 80%;">
-                <p>Price: $22.99</p>
-                <p>Order Now: <a href="https://mydreamvibe.creator-spring.com" target="_blank">Order Here</a></p>
+                <img src="https://imgur.com/Y6cebNB" alt="Unisex Classic Pullover Hoodie">
+                <h3>Unisex Classic Pullover Hoodie - $40.99</h3>
+                <button>Order Now</button>
             </div>
-
-            <!-- Product 7: Mug -->
             <div class="product">
-                <h3>Mug</h3>
-                <img src="https://imgur.com/igbRCZm.png" alt="Mug">
-                <p>Price: $15.99</p>
-                <p>Order Now: <a href="https://mydreamvibe.creator-spring.com" target="_blank">Order Here</a></p>
+                <img src="https://imgur.com/RGpV13C" alt="Notebook">
+                <h3>Notebook - $19.99</h3>
+                <button>Order Now</button>
             </div>
-
-            <!-- Product 8: Ceramic Ornament - Circle -->
             <div class="product">
-                <h3>Ceramic Ornament - Circle</h3>
-                <img src="https://imgur.com/oh7eAy8.png" alt="Ceramic Ornament - Circle">
-                <p>Price: $14.99</p>
-                <p>Order Now: <a href="https://mydreamvibe.creator-spring.com" target="_blank">Order Here</a></p>
+                <img src="https://imgur.com/45e1zxl" alt="Samsung Case">
+                <h3>Samsung Case - $22.99</h3>
+                <button>Order Now</button>
             </div>
-
-            <!-- Product 9: Classic Long Sleeve Tee -->
             <div class="product">
-                <h3>Classic Long Sleeve Tee</h3>
-                <img src="https://imgur.com/Ypjx1cN.png" alt="Classic Long Sleeve Tee">
-                <p>Price: $30.99</p>
-                <p>Order Now: <a href="https://mydreamvibe.creator-spring.com" target="_blank">Order Here</a></p>
+                <img src="https://imgur.com/vETQ7n2" alt="iPhone Case">
+                <h3>iPhone Case - $22.99</h3>
+                <button>Order Now</button>
             </div>
-
+            <div class="product">
+                <img src="https://imgur.com/oh7eAy8" alt="Ceramic Ornament - Circle">
+                <h3>Ceramic Ornament - Circle - $14.99</h3>
+                <button>Order Now</button>
+            </div>
+            <div class="product">
+                <img src="https://imgur.com/Ypjx1cN" alt="Classic Long Sleeve Tee">
+                <h3>Classic Long Sleeve Tee - $30.99</h3>
+                <button>Order Now</button>
+            </div>
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2024 Accentaura. All Rights Reserved.</p>
+        <p>&copy; 2024 Accentaura. All rights reserved.</p>
     </footer>
 </body>
 </html>
